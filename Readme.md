@@ -2,18 +2,18 @@
   <h2> TUI for managing wifi </h2>
 </div>
 
-## 📸 Demo
+##  Demo
 
 ![](https://github.com/user-attachments/assets/55c800ff-d0aa-4454-aa6b-3990833ce530)
 
-## ✨ Features
+##  Features
 
 - WPA Enterprise (802.1X) Support
 - Station & Access Point Modes
 - QR Code Network Sharing
 - Support hidden networks
 
-## 💡 Prerequisites
+##  Prerequisites
 
 - A Linux based OS
 - [iwd](https://iwd.wiki.kernel.org/) running.
@@ -22,13 +22,13 @@
 > [!IMPORTANT]
 > To avoid conflicts, ensure wireless management services like NetworkManager or wpa_supplicant are disabled.
 
-## 🚀 Installation
+##  Installation
 
-### 📥 Binary release
+###  Binary release
 
 You can download the pre-built binaries from the release page [release page](https://github.com/pythops/impala/releases)
 
-### 📦 crates.io
+###  crates.io
 
 You can install `impala` from [crates.io](https://crates.io/crates/impala)
 
@@ -36,7 +36,7 @@ You can install `impala` from [crates.io](https://crates.io/crates/impala)
 cargo install impala
 ```
 
-### 🐧Arch Linux
+### Arch Linux
 
 You can install `impala` from the [official repositories](https://archlinux.org/packages/extra/x86_64/impala/) with using [pacman](https://wiki.archlinux.org/title/pacman).
 
@@ -50,7 +50,7 @@ pacman -S impala
 nix-env -iA nixpkgs.impala
 ```
 
-### ⚒️ Build from source
+###  Build from source
 
 Run the following command:
 
@@ -62,13 +62,13 @@ cargo build --release
 
 This will produce an executable file at `target/release/impala` that you can copy to a directory in your `$PATH`.
 
-## 🪄 Usage
+##  Usage
 
 ```bash
 $ impala
 ```
 
-## 🛠️Custom keybindings
+## Custom keybindings
 
 Keybindings can be customized in the config file `$HOME/.config/impala/config.toml`
 
